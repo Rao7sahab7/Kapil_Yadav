@@ -1,0 +1,61 @@
+/* Basic body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg'); /* Make sure 'background.jpg' is in the same folder as your CSS or adjust the path */
+    background-size: cover; /* Ensure the background image covers the entire screen */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents background image repetition */
+    color: white; /* Adjust text color to be visible on the background */
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px; /* Increased padding for better aesthetics */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow to the header */
+}
+
+/* Navigation links */
+nav a {
+    color: white;
+    margin: 0 15px; /* Increase margin between links */
+    text-decoration: none;
+    font-weight: bold; /* Make links bold */
+}
+
+/* Styling for each section */
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Make the background white with slight transparency */
+    border-radius: 10px; /* Smooth border corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a soft shadow for depth */
+    color: #333; /* Change text color to make it easier to read */
+}
+
+/* Headings styles */
+h1, h2 {
+    color: #333; /* Dark text color for good contrast */
+}
+
+/* Additional styles for responsiveness */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 15px; /* Adjust header padding for smaller screens */
+    }
+
+    section {
+        margin: 10px; /* Reduce section margin for smaller devices */
+        padding: 15px;
+    }
+
+    nav a {
+        margin: 0 10px; /* Adjust navigation link margin */
+        font-size: 16px; /* Make text smaller for smaller screens */
+    }
+}
